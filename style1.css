@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+*{
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.inicio{
+    background-image: url(foto.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+}
+
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #b31c62;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    text-align:left;
+    z-index: 80;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display:block;
+    color: rgb(102, 13, 18);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px white;
+}
+.inicio .contenido-seccion header .logo .color{
+    color: #8b151f;
+    font-family: "Yellowtail";
+}
+.inicio .contenido-seccion header .nav-bar{
+    position:fixed;
+    background-color: #c22b4b;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor: pointer;
+    transition: .3s ;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px white;
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 153px;
+    border-radius: 50%;
+    border: 5px solid #94022e;
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+}
+
+/*segunda parte */
+.habilidades{
+    background-color: #e6e6e6 ;
+    padding: 150px 0 100px 0;
+}
+.titulo-seccion{
+    text-align: center;
+    font-family: "Titillium Web";
+    color: rgb(88, 3, 41);
+    
+
+}
+
+.especial{
+    color: #da2754;
+}
+
+.habilidades .cont{
+    padding: 20px;
+
+}
+
+/* CSS para alinear imágenes y figcaption */
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Alinea las imágenes en el espacio disponible */
+}
+
+/* Estilo para las figuras */
+.imagenes figure {
+    text-align: center;
+    width: 20%; /* Ajusta el ancho de las figuras según tus preferencias */
+    margin: 50px; /* Agrega espacio entre las figuras */
+    position: relative; /* Permite un posicionamiento relativo para figcaption */
+}
+
+/* Estilo para las imágenes dentro de las figuras */
+.imagenes img {
+    display: block;
+    max-width: 100%; /* Asegura que las imágenes se ajusten dentro de las figuras */
+}
+
+/* Estilo para los figcaption dentro de las figuras */
+.imagenes figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(177, 192, 245, 0.7);
+    color: rgb(3, 3, 29);
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: rgb(238, 236, 236);
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 10000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 30px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #8a0b16;
+}
+
+.btn-regresar{
+    border:0px solid;
+    border-radius: 10px;
+    background-color: rgba(73, 3, 70, 0.763);
+    color:white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.btn-regresar:hover{
+    background-color: rgba(73, 3, 70, 0.763);
+    color: #fcfcfc;
+    transition: ease-in .4s;}
+
+.btn-siguiente{
+    float: right;
+    border:0px solid;
+    border-radius: 10px;
+    background-color: rgb(192, 96, 96);
+    color:white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+     
+.btn-siguiente:hover{
+    background-color: rgba(71, 20, 43, 0.763);
+    color: #fcfcfc;
+    transition: ease-in .4s;
+}
+.botones{
+    padding: 10px;
+    background-color: #e6e6e6;
+}
